@@ -40,13 +40,13 @@ const routes = (
 ```
 
 -The second - you must add reducer to rootReducer with
-`routingParams` key
+`routerParams` key
 ```
 import {combineReducers} from 'redux';
-import {reducer as routingParams} from 'router-redux-params';
+import {reducer as routerParams} from 'router-redux-params';
 
 const rootReducer = combineReducers({
-    routingParams //this key name is important!!!
+    routerParams //this key name is important!!!
     //..reducers will go here
     //...
     //†reducer

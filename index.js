@@ -28,7 +28,7 @@ class RouterParams extends Component{
 }
 
 export default connect((state)=>({
-    href: state.routingParams.href
+    href: state.routerParams.href
 }),{
     urlUpdate: ACTION.urlUpdate
 })(RouterParams)
