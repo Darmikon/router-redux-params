@@ -1,6 +1,6 @@
 {
   "name": "router-redux-params",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React router params inside redux store",
   "main": "lib/index.js",
   "files": [
