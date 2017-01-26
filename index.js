@@ -3,12 +3,6 @@ import {connect} from 'react-redux'
 const ACTION = require('./ducks').ACTION
 export reducer from './ducks'
 
-export default connect((state)=>({
-    href: state.routingParams.href
-}),{
-    urlUpdate: ACTION.urlUpdate
-})(RouterParams)
-
 class RouterParams extends Component{
     componentDidMount(){
         this.props.urlUpdate({
@@ -32,3 +26,9 @@ class RouterParams extends Component{
         return (this.props.children)
     }
 }
+
+export default connect((state)=>({
+    href: state.routingParams.href
+}),{
+    urlUpdate: ACTION.urlUpdate
+})(RouterParams)
