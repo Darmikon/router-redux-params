@@ -1,4 +1,4 @@
-# React router redux params
+## React router redux params
 
 React router params inside redux store.
 
@@ -23,6 +23,10 @@ store = {
     }
 }
 ```
+
+
+##Installation
+`npm i router-redux-params --save`
 
 - At first - you should add RouterParams container as a component
 for the root route
