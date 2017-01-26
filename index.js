@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react'
 import {connect} from 'react-redux'
-import {ACTION} from './ducks'
+const ACTION = require('./ducks').ACTION
 export reducer from './ducks'
 
 export default connect((state)=>({
