@@ -54,3 +54,8 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 ```
+
+###ACTION
+`@@routerParams/URL_UPDATE` will be fired when root container will get
+new properties due to location change. So you can listen to this
+event in redux-saga for example.
